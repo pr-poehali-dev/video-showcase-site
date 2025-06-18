@@ -54,15 +54,15 @@
 }
 
 @layer components {
-  .gradient-bg {
-    background: linear-gradient(135deg, #8b5cf6 0%, #d946ef 50%, #f97316 100%);
+  .minimal-bg {
+    background: #ffffff;
   }
 
-  .creative-shadow {
-    box-shadow: 0 20px 40px rgba(139, 92, 246, 0.15);
+  .minimal-shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }
 
-  .hover-lift {
-    @apply transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl;
+  .minimal-hover {
+    @apply transition-all duration-200 hover:shadow-sm hover:bg-gray-50;
   }
 }
